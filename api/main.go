@@ -38,7 +38,7 @@ func main() {
 	}
 
 	app := &App{
-		Port:   ":8080",
+		Port:   "127.0.0.1:8080",
 		Quotes: quotes,
 	}
 
